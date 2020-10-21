@@ -1,0 +1,10 @@
+2020-10-20T16:47:29.992890+00:00 app[web.1]: 10.13.235.87 - - [20/Oct/2020 16:47:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-20T16:47:29.993461+00:00 heroku[router]: at=info method=POST path="/data" host=shrouded-ravine-48207.herokuapp.com request_id=7c72877c-92d1-462a-b231-31c9421bb7fd fwd="138.16.128.0" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-20T16:49:09.803976+00:00 app[web.1]: 10.33.189.18 - - [20/Oct/2020 16:49:09] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-20T16:49:09.804597+00:00 heroku[router]: at=info method=GET path="/" host=shrouded-ravine-48207.herokuapp.com request_id=24167aaa-e175-4907-b3f3-cfbd99f61d5c fwd="138.16.128.0" dyno=web.1 connect=3ms service=33ms status=200 bytes=8900 protocol=https
+2020-10-20T16:49:10.745924+00:00 app[web.1]: AB_TESTING: A 1603212550224 0 0 hpkwjl
+2020-10-20T16:49:10.746781+00:00 app[web.1]: 10.33.189.18 - - [20/Oct/2020 16:49:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-20T16:49:10.746786+00:00 heroku[router]: at=info method=POST path="/data" host=shrouded-ravine-48207.herokuapp.com request_id=cfb5cbdc-007a-42ec-95b3-65e4ba23511f fwd="138.16.128.0" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-20T16:49:14.115206+00:00 app[web.1]: AB_TESTING: A 1603212550224 1603212553992 mp1 hpkwjl
+2020-10-20T16:49:14.115915+00:00 app[web.1]: 10.33.189.18 - - [20/Oct/2020 16:49:14] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-20T16:49:14.116257+00:00 heroku[router]: at=info method=POST path="/data" host=shrouded-ravine-48207.herokuapp.com request_id=616ddee7-6356-499b-a407-c52b0ce0d7aa fwd="138.16.128.0" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
